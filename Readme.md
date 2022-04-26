@@ -20,6 +20,7 @@ Prerequisites
 webdsp requires **waveminer** to be installed, since webdsp runs executables from waveminer. Follow the instructions at the waveminer GitHub page to install it.
 
 webdsp also requires **node.js** and **socket.io** to be available. To install these, type:
+
     sudo apt-get update
     curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash –
     sudo apt-get install -y nodejs
@@ -28,6 +29,7 @@ webdsp also requires **node.js** and **socket.io** to be available. To install t
 Installing webdsp
 -----------------
 To install, type:
+
     mkdir -p ~/development
     cd ~/development
     git clone https://github.com/shabaz123/webdsp.git
