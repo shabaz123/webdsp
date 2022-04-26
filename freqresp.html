@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css" />
+
+	<title>Frequency Response App</title>
+</head>
+<body>
+	<img src="waveminer-logo1.png" alt="WaveMiner Logo">
+	<h1>Frequency Response App</h1>
+	<article></article>
+	<p>
+		<button id="id_start">Start Test</button>
+		<button id="id_stop">Stop Test</button>
+	</p>
+	<div id="id_status">
+		Status
+  </div>
+  <div id="frchart_div" style="position:relative; background-color:#313131; top:0px; left:0px; width:800px; height:500px; border-size:2px; border-style:solid; border-color:#000000"></div>
+  
+
+</body>
+
