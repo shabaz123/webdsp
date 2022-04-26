@@ -4,7 +4,7 @@ Wave Miner WebDSP
 
 Introduction
 ------------
-webdsp contains just a single application today, called **freqresp_web.js**. When you run it, you can got to a browser and navigate to:
+webdsp contains just a single application today, called **freqresp_web.js**. When you run it, you can go to a browser and navigate to:
 **http://xx.xx.xx.xx:8081/freqresp.html**
 
 (replace **xx.xx.xx.xx** with the correct IP address of course). 
