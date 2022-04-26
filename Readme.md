@@ -36,7 +36,9 @@ To install, type:
 Running the code
 ----------------
 To run the app, type:
+
     cd ~/development/webdsp
     ./freqresp_web.js
   
+ Now you can go to **http://xx.xx.xx.xx:8081/freqresp.html**
  
