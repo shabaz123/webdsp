@@ -23,7 +23,7 @@ If you do not have a Wave Miner card attached to the Pi, then you don't need to 
 webdsp requires **node.js** and **socket.io** to be available. To install these, type:
 
     sudo apt-get update
-    curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash –
+    curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash -
     sudo apt-get install -y nodejs
     sudo npm install -g socket.io
 
