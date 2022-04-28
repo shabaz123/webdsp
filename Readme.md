@@ -17,9 +17,10 @@ webdsp was tested on a Raspberry Pi 4. Some paths are hard-coded for the pi user
 
 Prerequisites
 -------------
-webdsp requires **waveminer** to be installed, since webdsp runs executables from waveminer. Follow the instructions at the waveminer GitHub page to install it.
+webdsp needs **waveminer** to be installed, since webdsp runs executables from waveminer. Follow the instructions at the waveminer GitHub page to install it.
+If you do not have a Wave Miner card attached to the Pi, then you don't need to install the waveminer software, and you can run webdsp in a **dummy** mode (see below).
 
-webdsp also requires **node.js** and **socket.io** to be available. To install these, type:
+webdsp requires **node.js** and **socket.io** to be available. To install these, type:
 
     sudo apt-get update
     curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash –
@@ -43,4 +44,10 @@ To run the app, type:
     ./freqresp_web.js
   
  Now you can go to **http://xx.xx.xx.xx:8081/freqresp.html**
+ 
+ If you don't have a Wave Miner card then you can run webdsp in a dummy mode:
+ 
+    cd ~/development/webdsp
+    ./freqresp_web.js dummy
+    
  
