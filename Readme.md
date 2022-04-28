@@ -11,6 +11,10 @@ webdsp contains just a single application today, called **freqresp_web.js**. Whe
 
 The freqresp_web.js app will run commands that control and query a DSP board, and will then send the results to the browser page, for displaying in a chart.
 
+Acknowledgements
+----------------
+Special thanks to Mike https://github.com/MakeItBack for the web work to make this project clean and usable, and actually fun to use!
+
 Notes
 -----
 webdsp can be run with the Wave Miner hardware card, or it can be run in a dummy data mode. If you're using the Wave Miner hardware then webdsp needs to be installed on the Raspberry Pi that the hardware card is connected to. If you're using the dummy mode then you can install webdsp on any Linux box using any user account.
