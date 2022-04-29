@@ -17,8 +17,6 @@ jQuery(document).ready(function() {
 	$("#id_status").html('Status: Ready');
     $("#fromBypass").prop("checked", true);
     $("#toBypass").prop("checked", true);
-    
-
 
     // frequency button events
     $('#fromFreq_radio_box').change(function(){

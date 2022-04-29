@@ -26,55 +26,60 @@
             <img src="waveminer-logo1.png" alt="WaveMiner Logo" />
          </div>
          <h1 class="text-center my-3">AC RMS App</h1>
-
-         <div class="m-4 text-center">
-            From:
-            <form id="fromFreq_radio_box">
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="fromFreqOptions" id="fromBypass" value="0">
-                  <label class="form-check-label" for="fromBypass">Bypass</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="fromFreqOptions" id="from10" value="1">
-                  <label class="form-check-label" for="from10">10 Hz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="fromFreqOptions" id="from20" value="2">
-                  <label class="form-check-label" for="from20">20 Hz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="fromFreqOptions" id="from100" value="3">
-                  <label class="form-check-label" for="from100">100 Hz</label>
-               </div>
-            </form>
-            To:
-            <form id="toFreq_radio_box">
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="toFreqOptions" id="to100" value="1">
-                  <label class="form-check-label" for="to100">100 Hz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="toFreqOptions" id="to1k" value="2">
-                  <label class="form-check-label" for="to1k">1 kHz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="toFreqOptions" id="to10k" value="3">
-                  <label class="form-check-label" for="to10k">10 kHz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="toFreqOptions" id="to20k" value="4">
-                  <label class="form-check-label" for="to20k">20 kHz</label>
-               </div>
-               <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="toFreqOptions" id="toBypass" value="0">
-                  <label class="form-check-label" for="toBypass">Bypass</label>
-               </div>
-            </form>
+         <div class="m-4 text-center controls1">
+            <div class="fromtoArea">
+               <h2 class="text-center my-3">From:</h2>
+               <form id="fromFreq_radio_box">
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fromFreqOptions" id="fromBypass" value="0">
+                     <label class="form-check-label" for="fromBypass">Bypass</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fromFreqOptions" id="from10" value="1">
+                     <label class="form-check-label" for="from10">10 Hz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fromFreqOptions" id="from20" value="2">
+                     <label class="form-check-label" for="from20">20 Hz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="fromFreqOptions" id="from100" value="3">
+                     <label class="form-check-label" for="from100">100 Hz</label>
+                  </div>
+               </form>
+            </div>
+            <div class="fromtoArea">
+               <h2 class="text-center my-3">To:</h2>
+               <form id="toFreq_radio_box">
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="toFreqOptions" id="to100" value="1">
+                     <label class="form-check-label" for="to100">100 Hz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="toFreqOptions" id="to1k" value="2">
+                     <label class="form-check-label" for="to1k">1 kHz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="toFreqOptions" id="to10k" value="3">
+                     <label class="form-check-label" for="to10k">10 kHz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="toFreqOptions" id="to20k" value="4">
+                     <label class="form-check-label" for="to20k">20 kHz</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="toFreqOptions" id="toBypass" value="0">
+                     <label class="form-check-label" for="toBypass">Bypass</label>
+                  </div>
+               </form>
+            </div>
          </div>
          <div id="id_status" class="text-center my-3">Status</div>
-         <div id="id_meter1_div" class="jumbotron">
-            <h1 id="id_meter1_value" class="display-4">0</h1>
-            <p class="lead">mV RMS</p>
+         <div class="text-center">
+            <div id="id_meter1_div" class="jumbotron">
+               <h1 id="id_meter1_value" class="display-4 my-4">0</h1>
+               <p class="lead">mV RMS</p>
+            </div>
          </div>
       </div>
       <script
