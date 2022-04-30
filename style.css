@@ -205,3 +205,85 @@ svg {
    display: inline-block;
 }
 
+.controlschan1 {
+   position: relative;
+   text-align: center;
+   width:650px;
+   margin: 5px auto;
+   border: 1px solid #ffffff;
+   border-radius: 0.5rem;
+   display: block;
+   background-color: #808080;
+   
+ }
+
+ .controlschan2 {
+   position: relative;
+   text-align: center;
+   width:650px;
+   margin: 5px auto;
+   border: 1px solid #ffffff;
+   border-radius: 0.5rem;
+   display: block;
+   background-color: #400000;
+   
+ }
+
+ .controlsphase {
+   position: relative;
+   text-align: center;
+   width:650px;
+   margin: 5px auto;
+   border: 1px solid #ffffff;
+   border-radius: 0.5rem;
+   display: block;
+   background-color: #101010;
+   
+ }
+
+.controls-slider {
+   position: relative;
+   text-align: center;
+   margin: 40px auto;
+   width: 400px;
+   
+   display: block;
+ }
+
+.slider-selection {
+   background: #BABABA;
+}
+
+.slider-track-high {
+   background: #BABABA;
+}
+
+.slider-handle {
+   background: #00468d;
+}
+
+#f1slider {
+   width: 550px;
+}
+
+#f2slider {
+   width: 550px;
+}
+
+#a1slider {
+   width: 250px;
+}
+
+#a2slider {
+   width: 250px;
+}
+
+#phslider {
+   width: 250px;
+}
+
+.number-box {
+   margin: 5px auto;
+   display: block;
+   width: 100px;
+}
