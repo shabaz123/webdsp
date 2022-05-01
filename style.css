@@ -181,18 +181,18 @@ svg {
    text-align: center;
    margin: 5px auto;
    display: inline-block;
- }
+}
 
- .controls1 {
+.controls1 {
    position: relative;
    text-align: center;
    margin: 5px auto;
    border: 1px solid #ffffff;
    border-radius: 0.5rem;
    display: inline-block;
- }
+}
 
- #id_meter1_div {
+#id_meter1_div {
    position: relative;
    text-align: center;
    background-color: #313131;
@@ -208,54 +208,48 @@ svg {
 .controlschan1 {
    position: relative;
    text-align: center;
-   width:650px;
+   width: 650px;
    margin: 5px auto;
    border: 1px solid #ffffff;
    border-radius: 0.5rem;
    display: block;
    background-color: #808080;
-   
- }
+}
 
- .controlschan2 {
+.controlschan2 {
    position: relative;
    text-align: center;
-   width:650px;
+   width: 650px;
    margin: 5px auto;
    border: 1px solid #ffffff;
    border-radius: 0.5rem;
    display: block;
    background-color: #400000;
-   
- }
+}
 
- .controlsphase {
+.controlsphase {
    position: relative;
    text-align: center;
-   width:650px;
+   width: 650px;
    margin: 5px auto;
    border: 1px solid #ffffff;
    border-radius: 0.5rem;
    display: block;
    background-color: #101010;
-   
- }
+}
 
 .controls-slider {
    position: relative;
-   text-align: center;
-   margin: 40px auto;
    width: 400px;
-   
    display: block;
- }
+}
 
 .slider-selection {
-   background: #BABABA;
+   background: #bababa;
 }
 
 .slider-track-high {
-   background: #BABABA;
+   background: #bababa;
 }
 
 .slider-handle {
