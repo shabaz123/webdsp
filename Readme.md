@@ -5,7 +5,7 @@ Wave Miner WebDSP
 Introduction
 ------------
 
-webdsp can be used to generate signals, or to perform measurements on signals. The signals can be audio related, or can arrive from sensors. webdsp is software that runs on the Raspberry Pi (or on any Linux machine using dummy data mode) and allows the user to go to web pages and control and measure/monitor the siganls.
+webdsp can be used to analyze or perform measurements on signals, or even generate signals. The signals can be sound or vibration related, or can arrive from other sensors. webdsp is software that runs on the Raspberry Pi (or on any Linux machine using dummy data mode) and allows the user to go to web pages and control and measure/monitor the siganls.
 
 <img width="100%" align="left" src="assets\webdsp-example-screenshots.png">
 
@@ -13,7 +13,7 @@ webdsp uses a Pi connected to a hardware Digital Signal Processor (DSP) card cal
 
 <img width="50%" align="right" src="assets\waveminer-pi-annotated.jpg">
 
-webdsp contains just three application todays, called **freqresp_web.js**, **rms_web.js** and **sine_web.js**. When you run them, you can go to a browser and navigate to:
+webdsp contains three application todays, called **freqresp_web.js**, **rms_web.js** and **sine_web.js**. When you run them, you can go to a browser and navigate to:
 **http://xx.xx.xx.xx:8081/freqresp.html** or **http://xx.xx.xx.xx:8081/rms.html** or **http://xx.xx.xx.xx:8081/sine.html** depending on which app you run; the details on how to run an app are below.
 
 (replace **xx.xx.xx.xx** with the correct IP address of course). 
